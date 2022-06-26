@@ -170,8 +170,7 @@ const CollectionItem = (props: Props) => {
       </Flex>
     )
   } else {
-    return console.log('gaada nft');
-    ;
+    return <p>No MARMONFT</p>;
   }
 }
 
