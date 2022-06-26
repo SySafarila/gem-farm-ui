@@ -24,8 +24,6 @@ const CollectionItem = (props: Props) => {
   }
 
   if (!item) return null
-
-  console.log(item.externalMetadata.symbol);
   
 
   const { onchainMetadata, externalMetadata } = item
@@ -40,6 +38,7 @@ const CollectionItem = (props: Props) => {
       return true
     }
 
+    // hard code filter
   if (item.externalMetadata.symbol == 'MARMO') {
     return (
       <Flex
@@ -170,8 +169,7 @@ const CollectionItem = (props: Props) => {
       </Flex>
     )
   } else {
-    return console.log('gaada nft');
-    ;
+    return null;
   }
 }
 

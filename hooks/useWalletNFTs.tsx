@@ -21,7 +21,6 @@ export type NFT = {
       category: string
       creators: Array<string>
     }
-    symbol: string
     seller_fee_basis_points: number
   }
 }
